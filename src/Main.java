@@ -52,8 +52,15 @@ public class Main {
                     System.out.println(("Email Address"+s.email));
                     System.out.println("Tuition Fees per month: "+s.payment);
                 }
+                case 3:
+                System.out.println("Thank you for using the system.");
+                break;
+            default:
+                System.out.println("Invalid choice.Please try again");
         }
 
+        }
 
+  
         }
 }
